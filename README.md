@@ -17,6 +17,21 @@ A simple wlan to eth router using the raspberry pi 4.
 
 *optional
 
+## Install Raspberry Pi OS
+### 1.
+Download Imager [here](https://downloads.raspberrypi.org/imager/imager_latest.exe)
+### 2.
+Go into settings. (bottom right)
+### 3.
+Enable `SSH`
+### 4. (otional)
+Enable `Wifi`
+### Enable 
+### 2.
+Select `Raspberry Pi OS (other)`/`Raspberry Pi OS Lite (64-bit)`
+### 3.
+Select SD-Card and follow instructions.
+
 ## Setup Bridge
 > Will be automated in the future.
 ### 1.
@@ -26,6 +41,7 @@ Open settings file with following command:
 $ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 ### 2.
+Can be skipped if you already configured wifi in the Imager
 Add the following lines to the file:
 ```sh
 network={
