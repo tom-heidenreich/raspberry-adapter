@@ -2,8 +2,6 @@
 
 A simple wlan to eth router using the raspberry pi 4.
 
-> If you want to upgrade your raspberry pi, see [this](#Upgrade).
-
 ### Required hardware
 * Raspberry pi 4
 * tp-link AC1300
@@ -26,10 +24,9 @@ Go into settings. (bottom right)
 Enable `SSH`
 ### 4. (otional)
 Enable `Wifi`
-### Enable 
-### 2.
+### 5.
 Select `Raspberry Pi OS (other)`/`Raspberry Pi OS Lite (64-bit)`
-### 3.
+### 6.
 Select SD-Card and follow instructions.
 
 ## Setup Bridge
